@@ -1,0 +1,11 @@
+#imports
+fastapi
+uvicorn[standard]
+ortools
+pydantic
+
+#backend
+python -m uvicorn app.main:app --reload
+
+#frontend
+npm run dev
